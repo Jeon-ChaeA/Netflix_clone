@@ -1,0 +1,58 @@
+@media (max-width:768px) {
+  body{font-size: 15px;}
+  .logo img{ width: 120px;}
+  .logo{margin-left: 10px;}
+  .signin{margin-right: 10px;}
+  header{
+    padding: 35px 20px;
+  }
+  /* .heading */
+  .heading{
+    width: 100%;
+  }
+  .heading h1{font-size: 32px;}
+  .heading p{font-size: 15px;}
+  /* getstarted */
+  .getstarted{}
+  .getstarted input[type=email]{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  /* enjoy, download, watch, create*/
+  .enjoy, .download, .watch, .create{
+    height: auto;
+  }
+  .inner{
+    width: 100%;
+    position:static;
+    flex-direction: column;
+    transform: translate(0, 0);
+    text-align: center;
+  }
+  .inner .desc{padding: 20px 0;}
+  .inner .desc h2{font-size: 35px; font-weight: bold;}
+  .download .inner, .create .inner{
+    flex-direction: column;
+  }
+  .inner .preview{
+    width: 80%;
+    margin-bottom: 30px;
+  }
+  .inner .preview img{
+    width: 100%;
+  }
+  /* FAQ */
+  .faq-inner{
+    width: 80%;
+  }
+  .faq-inner h1{text-align: center; font-size:35px; margin-bottom: 20px;}
+  /* footer */
+  .footer-inner{
+    width: 100%;
+    text-align: center;
+  }
+  .items{
+    width: 48%;
+    text-align: center;
+  }
+}
